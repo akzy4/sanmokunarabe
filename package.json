@@ -1,0 +1,19 @@
+{
+  "name": "sanmokunarabe",
+  "version": "1.0.0",
+  "description": "CLIベースの三目並べゲーム",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx main.tsx",
+    "dev": "tsx main.tsx"
+  },
+  "keywords": ["tic-tac-toe", "cli", "game"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
