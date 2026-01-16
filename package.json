@@ -1,19 +1,25 @@
 {
   "name": "sanmokunarabe",
   "version": "1.0.0",
-  "description": "CLIベースの三目並べゲーム",
-  "main": "main.js",
+  "description": "Webベースの三目並べゲーム",
   "type": "module",
   "scripts": {
-    "start": "tsx main.tsx",
-    "dev": "tsx main.tsx"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
   },
-  "keywords": ["tic-tac-toe", "cli", "game"],
+  "keywords": ["tic-tac-toe", "web", "game", "react"],
   "author": "",
   "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
-    "@types/node": "^20.0.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.0"
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0"
   }
 }
