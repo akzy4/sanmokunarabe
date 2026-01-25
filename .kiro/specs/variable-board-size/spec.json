@@ -1,0 +1,22 @@
+{
+  "feature_name": "variable-board-size",
+  "created_at": "2026-01-25T08:53:09Z",
+  "updated_at": "2026-01-25T09:03:19Z",
+  "language": "ja",
+  "phase": "tasks-generated",
+  "approvals": {
+    "requirements": {
+      "generated": true,
+      "approved": true
+    },
+    "design": {
+      "generated": true,
+      "approved": true
+    },
+    "tasks": {
+      "generated": true,
+      "approved": true
+    }
+  },
+  "ready_for_implementation": true
+}
